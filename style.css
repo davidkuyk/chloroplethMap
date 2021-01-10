@@ -1,0 +1,76 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  font-family: Helvetica, sans-serif;
+  background-color: #006994;
+}
+
+svg {
+  background-color: white;
+}
+
+#title {
+  color: white;
+}
+
+#description {
+  font-weight: bold;
+}
+
+.county {
+  stroke: #006994;
+  stroke-width: .1;
+}
+
+#canvas {
+  min-height: 600px;
+  min-width: 1000px;
+  background-color: #006994;
+}
+
+#legend {
+  display: block;
+  margin: auto;
+  width: 500px;
+  height: 100px;
+  text-align: center;
+  background-color: #006994;
+  margin-top: 20px;
+}
+
+text {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#legendlegend {
+  display: block;
+  font-size: 16px;
+  text-align: center;
+  margin: auto;
+  width: 300px;
+}
+
+#tooltip {
+  display: block;
+  text-align: center;
+  margin: auto;
+  width: 300px;
+  height: 60px;
+  color: white;
+  padding-top: 15px;
+  background-color: #006994;
+  visibility: hidden;
+}
+
+.county:hover {
+  stroke: black;
+  stroke-width: 2;
+}
